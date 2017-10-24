@@ -42,3 +42,55 @@ nav {
 .box-header {
     display: inline-block;
 }
+
+.logo-square {
+    width: 125px;
+} 
+
+section {
+    text-align: center;
+
+}
+
+div {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 30%;
+    padding: 2px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+button {
+    width: 130px;
+    height: 40px;
+    background-color: #EB9627;
+    border:none;
+    border-radius: 4px;
+    padding: 7px;
+    font-family: inherit;
+    font-size: 10px;
+    color:white;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+button:hover {
+    background-color: #644721;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-size: 40px;
+    transition: 4s;
+}
+
+li:hover, [class^="icon-"]:hover , [class*=" icon-"]:hover {
+    color: #EB9627;
+}
+
+footer {
+    background-color: #303030;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+}
